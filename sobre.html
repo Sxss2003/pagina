@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2980b9;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
+        }
+
+        #sobre-mi {
+            padding: 2em;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        #sobre-mi p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Hola, mundo</h2>
+        <p>Esta es una página web de ejemplo con una imagen y contacto por WhatsApp.</p>
+        <img src="foto.jpg" alt="Descripción de la imagen">
+        
+        <!-- Botón de WhatsApp -->
+        <br>
+        <a 
+            class="whatsapp-btn"
+            href="https://wa.me/5491123456789?text=Hola,%20quiero%20más%20información"
+            target="_blank"
+        >
+            Enviar mensaje por WhatsApp
+        </a>
+    </main>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            ¡Hola! Soy una persona apasionada por la tecnología y el desarrollo web. Me encanta aprender constantemente
+            y utilizar mis conocimientos para crear soluciones prácticas, creativas y funcionales. Este sitio web es parte
+            de mis proyectos personales, donde practico diseño, programación y organización de contenido. Estoy motivado por 
+            los desafíos y siempre busco mejorar mis habilidades colaborando en nuevas ideas y explorando el mundo digital.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 Mi Página Web. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
